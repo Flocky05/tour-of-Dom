@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tour of Dom</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        .important-places{
+            color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <main class="top-banner">
+        <h1 style="color:red ">
+            "Let's Go Anywhere"
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque alias in natus, nobis fugiat aspernatur repellat incidunt sint minima. Suscipit perspiciatis nihil sint vitae repellendus reprehenderit illo? Fugiat ut provident quasi tempore quo esse quisquam exercitationem iure possimus. Doloribus ea similique voluptatibus sequi magnam? Molestiae reprehenderit animi voluptatum ut hic ab sed minus ratione minima magnam temporibus natus maxime possimus facere unde sapiente voluptate, doloribus, iusto commodi suscipit aliquid, voluptates officia exercitationem perspiciatis? Qui vitae porro similique nulla sit assumenda velit beatae consequatur? Explicabo nostrum tempore hic magnam repudiandae a, delectus alias perspiciatis autem veniam unde nesciunt est obcaecati ducimus.
+        </p>
+    </main>
+    <section>
+        <h1>
+            Foots I like that:
+        </h1>
+        <ul>
+            <li>Apple</li>
+            <li>Mango</li>
+            <li>Nothing</li>
+        </ul>
+    </section>
+    <section>
+        <img style="border-radius: 5px" src="images/fec-16.jpg" alt="">
+        <h1 id="rolex">List of friends</h1>
+        <ul>
+            <li>Mehedi</li>
+            <li>Emon</li>
+            <li>Siam</li>
+            <li>Krishno</li>
+            <li>Shanto</li>
+            <li>Kauch</li>
+            <li>Panda</li>
+        </ul>
+    </section>
+    <section>
+        <h1 id="like"> I like to visit the places:</h1>
+        <ul>
+            <li class="important-places">Sundarban</li>
+            <li class="important-places">Sundarban</li>
+            <li class="important-places">kuakata</li>
+            <li class="important-places">COx Bazar</li>
+            <li>Ranngamati</li>
+            <li>Shylet</li>
+        </ul>
+    </section>
+    <script src="js/tour.js"></script>
+    <script src="js/styleIn.js"></script>
+    <script>
+        const places=document.getElementsByClassName('important-places');
+        for(const place of places){
+            // console.log(place.innerText);
+        }
+    </script>
+    
+</body>
+</html>

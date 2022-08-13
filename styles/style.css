@@ -1,0 +1,42 @@
+body{
+    width: 85%;
+    margin: auto;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: bisque;
+}
+main{
+    background-color: darkgray;
+    padding: 15px;
+}
+.elements-container li{
+    margin-left: 20px;
+}
+#element-title{
+    color: blueviolet;
+}
+.elements{
+    color: purple;
+}
+#object-title{
+    color: rgb(244, 104, 16);
+}
+.objects{
+    color: rgb(243, 230, 55);
+}
+.object-border{
+    border-bottom: 1px solid rgb(110, 104, 104);
+}
+.object-bg{
+    background-color: aqua;
+}
+.top-banner{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
